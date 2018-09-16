@@ -16,9 +16,9 @@ public class WorldMap extends JPanel {
   
     private static final long serialVersionUID = -336975817478756636L;  
   
-    private final int width = 22;  
+    private final int width = 20;  
   
-    private final int height = 22;  
+    private final int height = 20;  
   
     private final char WORLD_MAP_NONE = 'N';  
   
@@ -228,7 +228,7 @@ public class WorldMap extends JPanel {
         // 开启计时器  
         timer.start();  
     }  
-  
+    
     /** 
      * 复制地图 
      *  

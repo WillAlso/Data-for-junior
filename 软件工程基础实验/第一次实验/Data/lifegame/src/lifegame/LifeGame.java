@@ -15,8 +15,8 @@ public class LifeGame extends JFrame{
       
     private static final long serialVersionUID = -1660060555234651445L;  
   
-    LifeGame(){  
-        this.setSize(630,600);  
+    LifeGame(){
+        this.setSize(630,600);
         this.setTitle("…˙√¸”Œœ∑[LifeGame]DEMO");
         this.add(new WorldMap());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
